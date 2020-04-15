@@ -49,6 +49,11 @@ a {
     border-bottom: 1px solid #CCC;
 } 
 
+.rede img {
+    width: 20px;
+    height: 20px;
+}
+
 
 .copy p{
     margin: 20px 0 20px 0;
