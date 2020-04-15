@@ -1,0 +1,56 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #CCD1D1;
+    color: #252525;
+    
+}
+
+a {
+    color: #252525;
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF;
+}
+
+
+.navbar-brand img {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand img {
+        margin: 20% 0 20% 0;
+    }
+    .flex-column {
+        margin: 0 0 20% 0;
+    }
+
+    .copy {
+        margin: 15% 0 15% 0;
+    }
+}
+
+.menu .nav {
+}
+
+.flex-column {
+    width: 100%;
+}
+
+.borda {
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+} 
+
+
+.copy p{
+    margin: 20px 0 20px 0;
+}
