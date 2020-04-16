@@ -84,7 +84,7 @@ a:hover {
 @media (min-width: 992px) {
     #home {
         background: url("../images/eu.png") no-repeat;
-        height: 640px;
+        
     }
     .contHome h1 {
         font-size: 52px;
@@ -103,7 +103,7 @@ a:hover {
 .contHome p {
     text-align: center;
     font-size: 18px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .btnContato {
