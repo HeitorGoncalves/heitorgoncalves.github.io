@@ -22,6 +22,11 @@ a:hover {
     margin: 0px;
     padding: 0px;
     background-color: #FFF;
+    
+}
+
+.conteudo {
+
 }
 
 
@@ -71,4 +76,47 @@ a:hover {
     margin: 10px 0 20px 0;
     color: #939393;
     text-align: center;
+}
+
+
+/*           HOME            */
+
+@media (min-width: 992px) {
+    #home {
+        background: url("../images/eu.png") no-repeat;
+        height: 640px;
+    }
+    .contHome h1 {
+        font-size: 52px;
+        line-height: 58px;
+        padding-bottom: 30px;
+    }
+}
+
+
+.contHome {
+    background-color: #FFF;
+    padding: 10% 20px 10% 20px;
+}
+
+
+.contHome p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20%;
+}
+
+.btnContato {
+    text-align: center;
+    background-color: #00BC12;
+    color: #FFF;
+    margin: 20px 0 20px 0;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px 0 20px 20px;
+}
+
+.btnContato:hover {
+    background-color: #000;
+    color: #00BC12;
+    text-decoration: none;
 }
