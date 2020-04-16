@@ -5,13 +5,17 @@
 }
 
 body {
-    background-color: #CCD1D1;
-    color: #252525;
+    background-color: #F3F3F3;
+    color: #232323;
     
 }
 
 a {
     color: #252525;
+}
+
+a:hover {
+    color: #00BC12;
 }
 
 .menu{
@@ -43,10 +47,13 @@ a {
 .flex-column {
     width: 100%;
 }
+.flex-column .nav-item {
+    font-weight: bold;
+}
 
 .borda {
     width: 100%;
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #E5E5E5;
 } 
 
 .rede img {
@@ -54,7 +61,13 @@ a {
     height: 20px;
 }
 
+.copy {
+    padding: 10px;
+    margin: 30px 10px 20px 10px;
+}
 
 .copy p{
-    margin: 20px 0 20px 0;
+    margin: 10px 0 20px 0;
+    color: #939393;
+    text-align: center;
 }
