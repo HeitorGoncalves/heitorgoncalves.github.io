@@ -18,6 +18,8 @@ a:hover {
     color: #00BC12;
 }
 
+
+
 .menu{
     margin: 0px;
     padding: 0px;
@@ -25,9 +27,8 @@ a:hover {
     
 }
 
-.conteudo {
 
-}
+
 
 
 .navbar-brand img {
@@ -35,20 +36,33 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-    .navbar-brand img {
-        margin: 20% 0 0 0;
+    .menu .row {
+        position: fixed;
     }
-    .flex-column {
-        margin: 15% 0 15% 0;
+    .navbar-brand img {
+        width: 65%;
+        margin: 150% 0 0 0;
+    }
+    .links {
+        width: 65%;
+        margin: 5% 0 0 0;
     }
 
+    .borda {
+        width: 22%;
+    } 
+
     .rede {
-        margin: 5% 10px 10% 10px;
+        width: 65%;
+        margin: 50px 0 0 0;
     }
 
     .copy {
-        margin: 10% 10px 10% 10px;
+        width: 65%;
+        margin: 50px 20px 0 20px;
     }
+
+    
 }
 
 
@@ -61,6 +75,10 @@ a:hover {
 }
 
 .borda {
+    border-bottom: 1px solid #E5E5E5;
+} 
+
+.bordaCopy {
     width: 100%;
     border-bottom: 1px solid #E5E5E5;
 } 
@@ -119,4 +137,57 @@ a:hover {
     background-color: #000;
     color: #00BC12;
     text-decoration: none;
+}
+
+
+
+
+/*      QUEM SOU        */
+
+
+#quemsou {
+    background-color: #232323;
+    
+}
+
+#quemsou p {
+    margin: 10px;
+}
+
+
+.titQuemSou {
+    margin: 30px 10px 0 10px;
+    color: #00BC12;
+}
+
+.texQuemsou {
+    font-size: 14px;
+    color: #FFF;
+}
+
+.texQuemsou span {
+    color: #00BC12;
+}
+
+#autor {
+    text-align: right;
+    color: #00BC12;
+}
+
+.perfil {
+    width: 100%;
+    border: 4px solid #FFF;
+    margin: 30% 0 30% 0;
+}
+
+
+.skills {
+    background-color: #F3F3F3;
+}
+
+
+.skills h3 {
+    text-align: center;
+    color: #232323;
+    margin: 20px 0 20px 0;
 }
