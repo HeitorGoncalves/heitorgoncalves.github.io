@@ -189,6 +189,7 @@ a:hover {
 
 .skills h3 {
     text-align: center;
+    font-weight: bold;
     color: #232323;
     margin: 50px 0 20px 0;
 }
@@ -197,4 +198,65 @@ a:hover {
 .skills img {
     width: 100%;
     margin: 15px 0 15px 0;
+}
+
+
+
+
+
+/*          O QUE EU FAÇO           */
+
+
+
+#oquefaco {
+    margin: 30px 0 30px 0;
+}
+
+
+#oquefaco h1{
+    text-align: center;
+    color: #00BC12;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+
+#oquefaco h1 span {
+    color: #232323;
+    font-size: 18px;
+}
+
+
+.app {
+    padding: 5% 20px 5% 20px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+
+.app h1,h2,h6{
+    text-align: center;
+    font-weight: bold;
+}
+
+.app p{
+    text-align: center;
+}
+
+.app img {
+    width: 100%;
+    margin: 5% 0 20px 0;
+}
+
+.saibamais{
+    text-align: center;
+    background: #00BC12;
+    color: #FFF;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.saibamais:hover{
+    background: #252525;
+    color: #FFF;
+    text-decoration: none;
 }
