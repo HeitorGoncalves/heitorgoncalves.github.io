@@ -261,3 +261,83 @@ a:hover {
     color: #FFF;
     text-decoration: none;
 }
+
+
+
+
+/*          PORTFOLIO       */
+
+
+#portfolio {
+    margin: 30px 0 30px 0;
+}
+
+
+#portfolio h1{
+    text-align: center;
+    color: #00BC12;
+    font-weight: bold;
+    line-height: 26px;
+    margin-top: 5%;
+}
+
+
+#portfolio h1 span {
+    color: #232323;
+    font-size: 18px;
+}
+
+
+
+
+/*          PORTFÓLIO           */
+
+
+#portfolio h1{
+    text-align: center;
+    color: #00BC12;
+    font-weight: bold;
+    line-height: 26px;
+    margin-top: 5%;
+}
+
+
+#portfolio h1 span {
+    color: #232323;
+    font-size: 18px;
+}
+
+
+.projects{
+    padding: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #00BC12;
+}
+
+.projects img {
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+
+
+
+/*              FALE CONOSCO                */
+
+
+
+#faleconosco h1{
+    text-align: center;
+    color: #00BC12;
+    font-weight: bold;
+    line-height: 26px;
+    margin-top: 5%;
+}
+
+
+#faleconosco h1 span {
+    color: #232323;
+    font-size: 18px;
+}
