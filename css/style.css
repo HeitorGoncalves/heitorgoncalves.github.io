@@ -27,7 +27,10 @@ a:hover {
     
 }
 
-
+.fa {
+    font-size: 25px;
+    margin: 0 0 0 5px;
+}
 
 
 
@@ -333,7 +336,7 @@ a:hover {
     color: #00BC12;
     font-weight: bold;
     line-height: 26px;
-    margin-top: 5%;
+    margin: 3% 0 3% 0;
 }
 
 
