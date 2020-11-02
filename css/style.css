@@ -104,7 +104,7 @@ a:hover {
 
 @media (min-width: 992px) {
     #home {
-        background: url("../images/eu.png") no-repeat;
+        background: url("../images/mobile.png") no-repeat;
         
     }
     .contHome h1 {
